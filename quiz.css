@@ -1,0 +1,101 @@
+#quiz{    
+    border: 1px solid rgb(213, 213, 213);
+    width: 120vh;
+    padding: 20px;
+    margin: 0 auto;
+    display: none;
+}
+
+.progress{
+    display: flex;             
+    flex-direction: row;       
+    gap: 540px;
+    text-align: center;
+}
+
+#noQuestion{
+    background-color:  rgb(234, 232, 232);
+    font-weight: 500;
+    font-size: large;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+
+.timer{
+    background-color:  rgb(234, 232, 232);
+    font-weight: 500;
+    font-size: medium;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 2px;
+}
+
+#question{
+    width: 119vh;
+    height: 30vh;
+    margin-top: 20px;
+    font-weight: 500;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.option{
+    border: 2px solid #ccc;
+    width: 119vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.option:hover{
+    background-color:  rgb(234, 232, 232);
+}
+
+#start-btn{
+    display: none;
+}
+
+#result{
+    display: none;
+    margin-top: 80px;
+    text-align: center;
+    height: 10vh;
+}
+
+#restart-btn{
+    font-weight: 500;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    display: none;
+    padding: 5px;
+}
+
+#restart-btn:hover{
+    background-color:  rgb(234, 232, 232);
+}
+
+#start-btn{
+    font-weight: 500;
+    font-size: medium;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    padding: 5px;
+}
